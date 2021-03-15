@@ -11,7 +11,7 @@ const capabilities = {
 }
 async function runTestWithCaps () {
   let driver = new webdriver.Builder()
-    .usingServer('http://vaidehijoshi2:g4f17ijtQvad1J6ceRjK@hub-cloud.browserstack.com/wd/hub')
+    .usingServer('http://username:password@hub-cloud.browserstack.com/wd/hub')
     .withCapabilities(capabilities)
     .build();
   await driver.get("http://www.google.com");

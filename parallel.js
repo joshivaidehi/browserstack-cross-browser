@@ -1,8 +1,8 @@
 const { Builder, By, Key, until } = require('selenium-webdriver');
 const http = require('http');
 
-const BROWSERSTACK_USERNAME = process.env.BROWSERSTACK_USERNAME || 'vaidehijoshi2';
-const BROWSERSTACK_ACCESS_KEY = process.env.BROWSERSTACK_ACCESS_KEY || 'g4f17ijtQvad1J6ceRjK';
+const BROWSERSTACK_USERNAME = process.env.BROWSERSTACK_USERNAME || 'username';
+const BROWSERSTACK_ACCESS_KEY = process.env.BROWSERSTACK_ACCESS_KEY || 'password';
 
 let HttpAgent = new http.Agent({
 	keepAlive: true,
